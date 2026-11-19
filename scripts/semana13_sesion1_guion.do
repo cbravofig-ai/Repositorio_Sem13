@@ -336,6 +336,7 @@ matrix list R, format(%9.0f)
 *
 *   R[fila, columna] lee o escribe UNA celda. Prueba:
 display "Industria: " R[5, 1] " pesos por año de educación"
+display "Agricultura: " R[3,1] " pesos por año de educación"
 
 * [DEBERÍAS VER] Industria: 42712.644 pesos por año de educación
 *   La matriz sobrevive al loop: en la Sesión 2 la mandamos a Excel.
